@@ -70,5 +70,87 @@ This lesson reinforced the basic syntax used to create and organize lists in Pyt
 
 My focus is on understanding how Python stores collections of information and developing the foundation needed for more advanced data structures and automation scripts.
 
+# Data Types
+
+Python lists can store multiple elements within a single variable. unlike som eprogramming languages that require collections to contain a single data type, Python lists can contain different data types simultaneously.
+
+This makes lists flexible for organizing and manipulating various kinds of information.
+
+## 1. Lists Containing Strings
+
+A list can store multiplw strings, which are text values enclosed in quotation marks.
+
+names = ["Noelle", "Ava", "Sam", "Mia"]
+
+Each element in this list is a string (str).
+
+## 2. Lists Containing Intergers
+
+Lists can store whole numbers, known as intergers (int).
+
+heights = [61, 70, 67, 64]
+
+Integers do not require quotation marks.
+
+## 3. Lists Containing Mixed Data Types
+
+Python allows multiple data types to exist within the same list.
+
+student = ["Sam", 67, 85.5, True]
+
+Breaking down the elements:
+
+| Element | Data Type | Description |
+| --- | --- | --- | 
+| "Sam" | str | Student's name|
+| 67 | int | Student's height |
+| 85.5 | float | Student's test score |
+| True | bool | Whether the student passed |
+
+Important: Python recognizes each element's data type independently, regardless of the other elements in the list. 
+
+## 4. Understanding Common Data Types
+
+* String (str): Text enclosed in quotation marks
+* Integer (int): Whole numbers without decimals
+* Float (float): Numbers represented with a decimal point
+* Boolean (bool): Logical values, either True or False
+
+Python is case-sensitive. Boolean values must be written as True and False not true and false.
+
+## 5. Practical Application - Server Information
+
+A mixed-type list can represent information about a Linux server. 
+
+server_info = ["RHEL", 10, 4.5, True]
+
+In this example:
+* "RHEL" - Operating system (str)
+* 10 - OS major version (int)
+* 4.5 - Example memory usage in GB (float)
+* True - Whether the server is online (bool)
+
+This demonstrates how different kinds of system information can be grouped into one collection.
+
+For more complex applications, dictionaires or custom objects may be better suited for storing named attributes.
+
+## Key Takeaways
+
+1. Lists can contain strings, integers, floats, booleans, and other Python objects
+2. A single list can contain multiple different data types
+3. Each element retains its own data type
+4. The order of elements is preserved
+5. Mixed-type lists are useful for grouping related information
+
+## Learning Reflection
+
+This lesson reinforced my understanding that Python lists are not restricted to a single data type.
+
+Understanding mixed-type collections will help me work with more complex data structures and eventually develop scripts for system administration, monitoring, and automation.
+
+
+
+
+
 
 
